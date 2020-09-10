@@ -15,7 +15,6 @@ export const getQuote = () => dispatch => {
       
       dispatch({ type: FETCHING_QUOTE_SUCCESS, payload: res.data.value });
     })
-    // .then(res => console.log(res))
     .catch(err => {
       console.log(err.response.status);
       if (err.response.status === 404) err = "GETTING NOTHING";
