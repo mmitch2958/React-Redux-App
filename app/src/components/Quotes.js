@@ -19,7 +19,7 @@ const Quotes = ({ getQuote, quote, isFetching, error }) => {
       <div className="joke-card">
         <h4>{quote}</h4>
         <img
-          src="https://media.tenor.com/images/b8e4664cdc8797a79cebd1deed4cb7d7/tenor.gif"
+          src="https://media1.tenor.com/images/575b9a0b98e26640182826576a1f6858/tenor.gif"
           alt="chuck punch"
         />
 
