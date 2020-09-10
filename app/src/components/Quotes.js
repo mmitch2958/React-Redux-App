@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { getQuote } from "../actions";
-import { QuotesCard } from "./QuotesCard";
+import { QuoteCard } from "./QuoteCard";
 
 const Quotes = ({ getQuote, quote, isFetching, error }) => {
   useEffect(() => {
@@ -15,7 +15,7 @@ const Quotes = ({ getQuote, quote, isFetching, error }) => {
 
   return (
     <>
-      <QuotesCard />
+      <QuoteCard />
       <div className="joke-card">
         <h4>{quote}</h4>
         <img

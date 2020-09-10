@@ -1,6 +1,6 @@
 import React from "react";
 
-export const QuotesCard = props => {
+export const QuoteCard = props => {
   return (
     <div className="joke-card">
       <h3>Chuck Norris facts:</h3>
